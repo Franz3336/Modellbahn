@@ -133,26 +133,26 @@ you can use the if-operator to execute parts of code only if a condition is true
 
   a = 1
   
-  if a = 1
+  if a = 1    
   ....a = 2
   
   *stores the value 2 in the variable "a"*
   
   a = 3
   
-  if a < 2
+  if a < 2    
   ....a = 5
   
   *stores the value 3 in the variable "a"*
   
-  k = 40
+  k = 40    
   a = 1
   
-  if k > 20
-  ....a = 2
+  if k > 20   
+  ....a = 2   
   k = 5
   
-  *stores the value 2 in the variable "a"*
+  *stores the value 2 in the variable "a"*    
   *stores the value 5 in the variable "k"*
   
 ##### operators
@@ -172,7 +172,7 @@ the statement is true if the left side is smaler than the right side
   
 #### while
 this executes the code inside the loop as long as the condition is true
-  while 1 = 1
+  while 1 = 1   
   ....a = 2
   
 you can use the same opperators for the while condition and the if condition 
@@ -180,38 +180,38 @@ you can use the same opperators for the while condition and the if condition
 #### log
 prints a value inside the ERROR-LOG
 
-  log 5
+  log 5   
   *prints 5 inside the ERROR-LOG*
   
-  a = 2
-  log a
+  a = 2   
+  log a   
   *prints 2 inside the ERROR-LOG*
   
-  log "text"
+  log "text"    
   *prints 'text' inside the ERROR-LOG*
   
 #### run
 runs code at the given path
   
-  run C:\thisIsAnExample.txt
+  run C:\thisIsAnExample.txt    
   *executes the 'thisIsAnExample' code-file*
   
 #### zug
 sends driving instructions to a train
   
-  zug8.lichtAn = 28
+  zug8.lichtAn = 28   
   *train number 8 turns on light and drives at speed 28*
   
-  zug5.lichtAus = -16
+  zug5.lichtAus = -16   
   *train number 5 turns off light and drives at speed 16 backwards*
 
 #### bes
 you can use the Besetztmelder as variables for conditions
   
-  if bes98.3 = 1
+  if bes98.3 = 1    
   ....log "train on bes98.3"
   
-  if bes98.3 = 0
+  if bes98.3 = 0    
   ....log "no train on bes98.3"
   
   *printes the current state of Besetztmelder 98.3 in the ERROR-LOG*
@@ -221,10 +221,10 @@ you can use the Besetztmelder as variables for conditions
 you can wirite comments in new lines using " ' "
 they will be ignored when you execute the code
 
-  a = 5
+  a = 5   
   'sets a to value 5
   
-  a = 3
+  a = 3   
   'sets a to value 3
   
   log a

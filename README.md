@@ -166,12 +166,13 @@ the statement is true if both sides have equal value
 the statement is true if the left side is greater than the right side
   if 2 > 1
   
-###### smaler theb
+###### smaler then
 the statement is true if the left side is smaler than the right side
   if 1 < 2
   
 #### while
-this executes the code inside the loop as long as the condition is true
+this executes the code inside the loop as long as the condition is true   
+
   while 1 = 1   
   ....a = 2
   

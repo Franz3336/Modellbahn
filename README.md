@@ -91,7 +91,7 @@ using this you can assing any integer-value to the variable
 you can also you basic mathematical operations or other variable to assing values
   
   a = 4 + 6   
-  *stores the value 10 in the variable "a"*
+  *stores the value 10 in the variable "a"*   
   k = a + 2   
   *stores the value 12 in the variable "k"*
   

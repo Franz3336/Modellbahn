@@ -82,7 +82,6 @@ you can write your own Fahrplan/Code using the code menu
 #### Vrabiables 
 
 you can add variables of type integer using the following syntax
-  <name> = <value>
   
   k = 5   
   *stores the value 5 in the variable "k"*
@@ -90,7 +89,6 @@ you can add variables of type integer using the following syntax
 using this you can assing any integer-value to the variable
 
 you can also you basic mathematical operations or other variable to assing values
-  <name> = <value/name> + <value/name>
   
   a = 4 + 6
   *stores the value 10 in the variable "a"*
@@ -101,35 +99,30 @@ you can also you basic mathematical operations or other variable to assing value
 
 ###### addition
 you can add two values using "+"
-  <name> = <value> + <value>
   
   k = 2 + 3
   *stores the value 5 in the variable "k"*
 
 ###### subtraction
 you can suptract two values using "-"
-  <name> = <value> - <value>
   
   k = 7 - 5
   *stores the value 2 in the variable "k"*
   
 ###### multiplication
 you can multiply two values using "*"
-  <name> = <value> * <value>
   
   k = 2 * 3
   *stores the value 6 in the variable "k"*
   
 ###### division
 you can divide two values using "/"
-  <name> = <value> / <value>
   
   k = 8 / 2
   *stores the value 4 in the variable "k"*
 
 ###### powers
 you can rase a value to another values power using "^"
-  <name> = <value> ^ <value>
   
   k = 2 ^ 3
   *stores the value 8 in the variable "k"*
@@ -137,9 +130,6 @@ you can rase a value to another values power using "^"
                          
 #### if
 you can use the if-operator to execute parts of code only if a condition is true
-  if <value/name> = <value/name>
-  ....<code>
-  <code>
 
   a = 1
   
@@ -170,30 +160,26 @@ you can use the following operators for conditions
 
 ###### equal
 the statement is true if both sides have equal value
-  if <value> = <value>
+  if 1 = 1
   
 ###### greater then
 the statement is true if the left side is greater than the right side
-  if <value> > <value>
+  if 2 > 1
   
 ###### smaler theb
 the statement is true if the left side is smaler than the right side
-  if <value> < <value>
+  if 1 < 2
   
 #### while
 this executes the code inside the loop as long as the condition is true
-  while <value> = <value>
-  ....<code>
+  while 1 = 1
+  ....a = 2
   
 you can use the same opperators for the while condition and the if condition 
 
 #### log
 prints a value inside the ERROR-LOG
-  log <name/value>
-  
-prints text inside the ERROR-LOG
-  log "<text>"
-  
+
   log 5
   *prints 5 inside the ERROR-LOG*
   
@@ -206,33 +192,21 @@ prints text inside the ERROR-LOG
   
 #### run
 runs code at the given path
-  run <path of code>
   
   run C:\thisIsAnExample.txt
   *executes the 'thisIsAnExample' code-file*
   
 #### zug
 sends driving instructions to a train
-  zug<address>.licht<An/Aus> = <tempo>
   
   zug8.lichtAn = 28
   *train number 8 turns on light and drives at speed 28*
   
   zug5.lichtAus = -16
   *train number 5 turns off light and drives at speed 16 backwards*
-  
-##### light
-you can turn the light of the train on or off using the following
 
-  zug<address>.lichtAn = <tempo> 
-  turns light on
-  
-  zug<address>.lichtAus = <tempo> 
-  turns light off
-  
 #### bes
 you can use the Besetztmelder as variables for conditions
-  bes<decoder>.<byte> = <On/Off>
   
   if bes98.3 = 1
   ....log "train on bes98.3"

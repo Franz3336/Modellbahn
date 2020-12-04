@@ -12,8 +12,11 @@ you as a user can add different object to build your own "Gleisplan"
 simply click on the object you want to build in the bar at the top or use the hotkeys
 
 G -> gleis
+
 W -> weiche
+
 B -> besetztmelder
+
 L -> delete (loeschen)
 
 #### Gleis
@@ -82,7 +85,7 @@ you can add variables of type integer using the following syntax
   <name> = <value>
   
   k = 5   
-  *stores the value 5 in the variable "k"
+  *stores the value 5 in the variable "k"*
 
 using this you can assing any integer-value to the variable
 
@@ -92,7 +95,7 @@ you can also you basic mathematical operations or other variable to assing value
   a = 4 + 6
   *stores the value 10 in the variable "a"*
   k = a + 2
-  *stores the value 12 in the variable "k"
+  *stores the value 12 in the variable "k"*
   
 ##### matheatical opperators
 
@@ -101,35 +104,35 @@ you can add two values using "+"
   <name> = <value> + <value>
   
   k = 2 + 3
-  *stores the value 5 in the variable "k"
+  *stores the value 5 in the variable "k"*
 
 ###### subtraction
 you can suptract two values using "-"
   <name> = <value> - <value>
   
   k = 7 - 5
-  *stores the value 2 in the variable "k"
+  *stores the value 2 in the variable "k"*
   
 ###### multiplication
 you can multiply two values using "*"
   <name> = <value> * <value>
   
   k = 2 * 3
-  *stores the value 6 in the variable "k"
+  *stores the value 6 in the variable "k"*
   
 ###### division
 you can divide two values using "/"
   <name> = <value> / <value>
   
   k = 8 / 2
-  *stores the value 4 in the variable "k"
+  *stores the value 4 in the variable "k"*
 
 ###### powers
 you can rase a value to another values power using "^"
   <name> = <value> ^ <value>
   
   k = 2 ^ 3
-  *stores the value 8 in the variable "k"
+  *stores the value 8 in the variable "k"*
                            
                          
 #### if
@@ -143,14 +146,14 @@ you can use the if-operator to execute parts of code only if a condition is true
   if a = 1
   ....a = 2
   
-  *stores the value 2 in the variable "a"
+  *stores the value 2 in the variable "a"*
   
   a = 3
   
   if a < 2
   ....a = 5
   
-  *stores the value 3 in the variable "a"
+  *stores the value 3 in the variable "a"*
   
   k = 40
   a = 1
@@ -159,8 +162,8 @@ you can use the if-operator to execute parts of code only if a condition is true
   ....a = 2
   k = 5
   
-  *stores the value 2 in the variable "a"
-  *stores the value 5 in the variable "k"
+  *stores the value 2 in the variable "a"*
+  *stores the value 5 in the variable "k"*
   
 ##### operators
 you can use the following operators for conditions
@@ -192,31 +195,31 @@ prints text inside the ERROR-LOG
   log "<text>"
   
   log 5
-  *prints 5 inside the ERROR-LOG
+  *prints 5 inside the ERROR-LOG*
   
   a = 2
   log a
-  *prints 2 inside the ERROR-LOG
+  *prints 2 inside the ERROR-LOG*
   
   log "text"
-  *prints 'text' inside the ERROR-LOG
+  *prints 'text' inside the ERROR-LOG*
   
 #### run
 runs code at the given path
   run <path of code>
   
   run C:\thisIsAnExample.txt
-  *executes the 'thisIsAnExample' code-file
+  *executes the 'thisIsAnExample' code-file*
   
 #### zug
 sends driving instructions to a train
   zug<address>.licht<An/Aus> = <tempo>
   
   zug8.lichtAn = 28
-  *train number 8 turns on light and drives at speed 28
+  *train number 8 turns on light and drives at speed 28*
   
   zug5.lichtAus = -16
-  *train number 5 turns off light and drives at speed 16 backwards
+  *train number 5 turns off light and drives at speed 16 backwards*
   
 ##### light
 you can turn the light of the train on or off using the following
@@ -237,7 +240,7 @@ you can use the Besetztmelder as variables for conditions
   if bes98.3 = 0
   ....log "no train on bes98.3"
   
-  *printes the current state of Besetztmelder 98.3 in the ERROR-LOG
+  *printes the current state of Besetztmelder 98.3 in the ERROR-LOG*
   
   
 #### comments
@@ -252,7 +255,7 @@ they will be ignored when you execute the code
   
   log a
   
-  *will print 3 into the ERROR-LOG
+  *will print 3 into the ERROR-LOG*
   
  ### ERROR-LOG
  the ERROR-LOG will show any errors occuring while running the porgram aswell as functioning as the outeput for your Fahrplan/Code

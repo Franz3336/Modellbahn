@@ -90,9 +90,9 @@ using this you can assing any integer-value to the variable
 
 you can also you basic mathematical operations or other variable to assing values
   
-  a = 4 + 6
+  a = 4 + 6   
   *stores the value 10 in the variable "a"*
-  k = a + 2
+  k = a + 2   
   *stores the value 12 in the variable "k"*
   
 ##### matheatical opperators
@@ -100,31 +100,31 @@ you can also you basic mathematical operations or other variable to assing value
 ###### addition
 you can add two values using "+"
   
-  k = 2 + 3
+  k = 2 + 3   
   *stores the value 5 in the variable "k"*
 
 ###### subtraction
 you can suptract two values using "-"
   
-  k = 7 - 5
+  k = 7 - 5   
   *stores the value 2 in the variable "k"*
   
 ###### multiplication
 you can multiply two values using "*"
   
-  k = 2 * 3
+  k = 2 * 3   
   *stores the value 6 in the variable "k"*
   
 ###### division
 you can divide two values using "/"
   
-  k = 8 / 2
+  k = 8 / 2   
   *stores the value 4 in the variable "k"*
 
 ###### powers
 you can rase a value to another values power using "^"
   
-  k = 2 ^ 3
+  k = 2 ^ 3   
   *stores the value 8 in the variable "k"*
                            
                          
